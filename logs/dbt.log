@@ -1,0 +1,28 @@
+[0m19:04:01.443905 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E57D604C70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5000B2A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5000B2880>]}
+
+
+============================== 19:04:01.450929 | 2fd66c03-b352-4dfb-9ebe-d0603900e1f9 ==============================
+[0m19:04:01.450929 [info ] [MainThread]: Running with dbt=1.8.6
+[0m19:04:01.453907 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Dell\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m19:04:19.931195 [debug] [MainThread]: Starter project path: E:\new_seef\flash seef\Data engineer\projects\elt\elt\venv\lib\site-packages\dbt\include\starter_project
+[0m19:04:19.942193 [info ] [MainThread]: 
+Your new dbt project "custom_postgres" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:04:19.943192 [info ] [MainThread]: Setting up your profile.
+[0m19:07:28.136043 [info ] [MainThread]: Profile custom_postgres written to C:\Users\Dell\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:07:28.137043 [debug] [MainThread]: Command `dbt init` succeeded at 19:07:28.137043 after 206.87 seconds
+[0m19:07:28.138043 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E57D604C70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5000B2A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E50012EF40>]}
+[0m19:07:28.138043 [debug] [MainThread]: Flushing usage events
